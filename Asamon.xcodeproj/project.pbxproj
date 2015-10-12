@@ -14,6 +14,9 @@
 		8E76B7CC1BA693ED00FBDE44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E76B7CB1BA693ED00FBDE44 /* Images.xcassets */; };
 		8E76B7CF1BA693ED00FBDE44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E76B7CD1BA693ED00FBDE44 /* LaunchScreen.xib */; };
 		8E76B7DB1BA693ED00FBDE44 /* AsamonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E76B7DA1BA693ED00FBDE44 /* AsamonTests.m */; };
+		8EAD253E1BCBB9CE005EA0F1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD253D1BCBB9CE005EA0F1 /* logo.png */; };
+		8EAD25401BCBBB1D005EA0F1 /* start.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD253F1BCBBB1D005EA0F1 /* start.jpg */; };
+		8EAD25421BCBBE02005EA0F1 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD25411BCBBE02005EA0F1 /* settings.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		8E76B7D41BA693ED00FBDE44 /* AsamonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsamonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E76B7D91BA693ED00FBDE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E76B7DA1BA693ED00FBDE44 /* AsamonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsamonTests.m; sourceTree = "<group>"; };
+		8EAD253D1BCBB9CE005EA0F1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		8EAD253F1BCBBB1D005EA0F1 /* start.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = start.jpg; sourceTree = "<group>"; };
+		8EAD25411BCBBE02005EA0F1 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		8E76B7BD1BA693ED00FBDE44 /* Asamon */ = {
 			isa = PBXGroup;
 			children = (
+				8EAD253C1BCBB9BE005EA0F1 /* resource */,
 				8E76B7C21BA693ED00FBDE44 /* AppDelegate.h */,
 				8E76B7C31BA693ED00FBDE44 /* AppDelegate.m */,
 				8E76B7C51BA693ED00FBDE44 /* ViewController.h */,
@@ -117,6 +124,16 @@
 				8E76B7D91BA693ED00FBDE44 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EAD253C1BCBB9BE005EA0F1 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				8EAD25411BCBBE02005EA0F1 /* settings.png */,
+				8EAD253F1BCBBB1D005EA0F1 /* start.jpg */,
+				8EAD253D1BCBB9CE005EA0F1 /* logo.png */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +216,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EAD25421BCBBE02005EA0F1 /* settings.png in Resources */,
+				8EAD253E1BCBB9CE005EA0F1 /* logo.png in Resources */,
 				8E76B7CA1BA693ED00FBDE44 /* Main.storyboard in Resources */,
+				8EAD25401BCBBB1D005EA0F1 /* start.jpg in Resources */,
 				8E76B7CF1BA693ED00FBDE44 /* LaunchScreen.xib in Resources */,
 				8E76B7CC1BA693ED00FBDE44 /* Images.xcassets in Resources */,
 			);
@@ -416,6 +436,7 @@
 				8E76B7E01BA693ED00FBDE44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E76B7E11BA693ED00FBDE44 /* Build configuration list for PBXNativeTarget "AsamonTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +445,7 @@
 				8E76B7E31BA693ED00FBDE44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
